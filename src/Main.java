@@ -9,6 +9,7 @@ public class Main {
 		Person<EmployeeInfo, Integer> p1 = new Person<EmployeeInfo, Integer>(e, i);
 		p1.<EmployeeInfo> printInfo(e);
 		p1.printInfo(e);
+		p1.printInfo(e);
 	}
 
 }
