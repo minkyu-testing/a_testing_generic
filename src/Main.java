@@ -7,9 +7,9 @@ public class Main {
 		EmployeeInfo e = new EmployeeInfo(199);
 		Integer i = new Integer(10);
 		Person<EmployeeInfo, Integer> p1 = new Person<EmployeeInfo, Integer>(e, i);
-		p1.<EmployeeInfo> printInfo(e);
+		p1.<Integer> printInfo(i);
 		p1.printInfo(e);
-		p1.printInfo(e);
+		p1.printInfo(i);
 	}
 
 }
@@ -31,7 +31,7 @@ class Person<T, S> {
 		this.id = id;
 	}
 
-	public <U> void printInfo(U info) {
-		System.out.println(info);
+	public <T> void printInfo(T uu) {
+		System.out.println(uu);
 	}
 }
