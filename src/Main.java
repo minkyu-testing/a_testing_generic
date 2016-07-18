@@ -6,11 +6,15 @@ public class Main {
 	public static void main(String[] args) {
 		Person p1 = new Person(new EmployeeInfo(10));
 		System.out.println(p1.info.getLevel());
+<<<<<<< Updated upstream
 		//Person<String> p2 = new Person<String>("부장2222222222222222222222");
 		//Person<String> p2 = new Person<String>("부장2222222222222222222222");
 		//Person<String> p2 = new Person<String>("부장2222222222222222222222");
 		//Person<String> p2 = new Person<String>("부장2222222222222222222222");
 		//Person<String> p2 = new Person<String>("부장2222222222222222222222");
+=======
+		//Person<String> p2 = new Person<String>("부장");11111111222222
+>>>>>>> Stashed changes
 	}
 
 }
